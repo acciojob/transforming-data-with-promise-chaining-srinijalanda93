@@ -4,7 +4,7 @@ function pro1(value) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(value);
-    }, 2000);
+    }, 0);
   });
 }
 
